@@ -1,0 +1,45 @@
+{
+  "name": "github-battle",
+  "version": "1.0.0",
+  "description": "My first reactjs project",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "raven-js": "^3.8.0",
+    "react": "~15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.0.0-rc5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgimov/github-battle.git"
+  },
+  "keywords": [
+    "reactjs",
+    "babel",
+    "webpack",
+    "github",
+    "babel-loader",
+    "webpack-dev-server",
+    "babel-core"
+  ],
+  "author": "E.Ghimazitdinov e.ghimazitdinov@gmail.com (http:://eghimazitdinov.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgimov/github-battle/issues"
+  },
+  "homepage": "https://github.com/evgimov/github-battle#readme"
+}
