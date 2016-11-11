@@ -1,7 +1,7 @@
 var axios = require('axios');
 
 var id = "YOUR_CLIEND_ID";
-var sec = "YOUR_SECRET)ID";
+var sec = "YOUR_SECRET_ID";
 var param = "?cliend_id=" + id + "&client_secret=" + sec;
 
 function getUserInfo(username){
@@ -28,7 +28,7 @@ function getPlayersData(player){
     .then(getTotalStars)
     .then(function(totalStars){
       return {
-        followers: player .followers,
+        followers: player.followers,
         totalStars: totalStars
       }
     })
